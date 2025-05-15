@@ -3,6 +3,11 @@ _A Complete Beginner’s Guide (Zero Kubernetes Experience Needed)_
 
 ---
 
+## What you will do
+In this guide, you’ll set up a Kubernetes GitOps workflow on AWS EKS using Argo CD, even if you’ve never used Kubernetes before. You’ll install the necessary command‑line tools (AWS CLI v2, eksctl, kubectl), configure IAM credentials, create an EKS cluster, deploy Argo CD, connect it to a GitHub repository containing your Kubernetes manifests, and automate application deployments. Each step is detailed with exact commands, and common pitfalls—such as insufficient node sizes or missing YAML commits—are highlighted and solved.
+
+---
+
 ## 📌 Before You Start
 
 You’ll need:
